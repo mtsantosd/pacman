@@ -4,3 +4,6 @@ resources:
 - ./namespace.yaml
 - ./deployment.yaml
 - ./service.yaml
+images:
+- name: lordofthejars/pacman-kikd
+  newTag: 1.0.1
